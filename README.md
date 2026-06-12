@@ -1,6 +1,6 @@
 <div align="center">
   <img
-    src="https://raw.githubusercontent.com/cyberbuzzytb/AttendEase/main/frontend/public/assets/AttendEase%20bg%20rem.png"
+    src="https://raw.githubusercontent.com/cyberbuzzytb/AttendEaseStandalones/main/AttendEase%20bg%20rem.png"
     alt="AttendEase"
     width="150"
   />
