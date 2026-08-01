@@ -9,39 +9,43 @@
 
   **Official standalone Android releases for AttendEase**
 
-  [![Latest Release](https://img.shields.io/badge/latest-v2.0.8-2785FE?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/latest)
+  [![Latest Release](https://img.shields.io/badge/latest-v2.0.9-2785FE?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/latest)
   [![Android](https://img.shields.io/badge/platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases)
   [![Main Project](https://img.shields.io/badge/main-AttendEase-0C1323?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEase)
 
   <br />
 
-  [**Download AttendEase v2.0.8 APK**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v2.0.8/AttendEase-v2.0.8.apk)
+  [**Download AttendEase v2.0.9 APK**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v2.0.9/AttendEase-v2.0.9.apk)
 </div>
 
 ---
 
 ## What Is This Repository?
 
-This repository is the public download home for AttendEase standalone application builds.
+This repository is the public download home for AttendEase standalone Android builds.
 
-The main AttendEase source code, web application, database migrations, and development history live in the [AttendEase repository](https://github.com/cyberbuzzytb/AttendEase). This repository contains release downloads only, keeping APK distribution simple and reliable.
+The main AttendEase source code, web app, database migrations, and development history live in the [AttendEase repository](https://github.com/cyberbuzzytb/AttendEase). This repo keeps APK delivery separate, stable, and easy to share with selected Android testers.
 
 ## Latest Android Release
 
-### AttendEase v2.0.8
+### AttendEase v2.0.9
 
-- Improved the Admin Console phone layout, controls, filters, and date pickers.
-- Added Corrections support for creating attendance on completely missed days.
-- Improved Corrections timeline gestures for marker dragging and page scrolling.
-- Added convenient page refresh controls.
-- Standardized visible dates to `DD-MM-YYYY`.
-- Refined the mobile System Config layout.
-- Updated the Android app icon to the AttendEase website logo.
-- Hidden Android app scrollbars while preserving scrolling.
+- Added hybrid Google sign-in routing: website and PWA logins return to the website, while Android APK logins return directly to the app.
+- Added Android deep-link handling for Supabase OAuth callbacks.
+- Improved Android report printing and Save as PDF through the native Android print screen.
+- Improved report rendering so summary tables fit better on desktop, mobile, and printable PDF layouts.
+- Cleaned report date ranges and metadata formatting for clearer exported attendance reports.
+- Added extra Android auth callback safeguards to avoid duplicate callback handling.
 
 | Download | Version | Package |
 | --- | --- | --- |
-| [AttendEase-v2.0.8.apk](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v2.0.8/AttendEase-v2.0.8.apk) | `2.0.8` | `com.cyberbuzzytb.attendease` |
+| [AttendEase-v2.0.9.apk](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v2.0.9/AttendEase-v2.0.9.apk) | `2.0.9` | `com.cyberbuzzytb.attendease` |
+
+**SHA256**
+
+```text
+204DCEEA3358443726EBA5815303FF03B0545C8DDB683D7A3A2D7B3DA6CA0C83
+```
 
 ## Install On Android
 
@@ -51,7 +55,7 @@ The main AttendEase source code, web application, database migrations, and devel
 4. Review the installation prompt and tap **Install**.
 5. Open AttendEase and sign in normally.
 
-Android always asks the user to confirm installation. AttendEase does not silently install or replace applications.
+Android always asks the user to confirm installation. AttendEase does not silently install or replace apps.
 
 ## In-App Updates
 
@@ -68,6 +72,18 @@ The update manifest is served from:
 
 ```text
 https://attendease-3cm3.onrender.com/app-update.json
+```
+
+The manifest points to the latest APK URL in this repository's releases, so the app always checks one stable update location.
+
+## Who Should Install This?
+
+Use this APK for AttendEase Android testers, admins, and employees who need stronger background notifications than a browser-only PWA can provide.
+
+For iPhone users and users who do not need native Android notifications, the AttendEase web/PWA experience remains available at:
+
+```text
+https://attendease-3cm3.onrender.com
 ```
 
 ## Release Safety
