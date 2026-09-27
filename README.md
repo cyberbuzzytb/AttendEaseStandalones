@@ -11,14 +11,14 @@
 
   [![Latest Release](https://img.shields.io/badge/latest-v2.2.0-2785FE?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/latest)
   [![Android](https://img.shields.io/badge/platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases)
-  [![Windows](https://img.shields.io/badge/companion-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/tag/connect-v1.0.0)
+  [![Windows](https://img.shields.io/badge/companion-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/tag/connect-v1.0.1)
   [![Main Project](https://img.shields.io/badge/main-AttendEase-0C1323?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEase)
 
   <br />
 
   [**Download AttendEase v2.2.0 APK**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v2.2.0/AttendEase-v2.2.0.apk)
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  [**Download AttendEase Connect v1.0.0**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v1.0.0/AttendEase-Connect-Setup-1.0.0.exe)
+  [**Download AttendEase Connect v1.0.1**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v1.0.1/AttendEase-Connect-Setup-1.0.1.exe)
 </div>
 
 ---
@@ -58,9 +58,11 @@ AttendEase Connect securely introduces a physical Windows computer to the Attend
 
 | Download | Version | Platform |
 | --- | --- | --- |
-| [AttendEase-Connect-Setup-1.0.0.exe](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v1.0.0/AttendEase-Connect-Setup-1.0.0.exe) | `1.0.0` | Windows x64 |
+| [AttendEase-Connect-Setup-1.0.1.exe](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v1.0.1/AttendEase-Connect-Setup-1.0.1.exe) | `1.0.1` | Windows x64 |
 
-**SHA-256:** `F4A76CF4F3F1540D6E81597672473669D5E864C30D4D45AA5939E8D44CE36D2E`
+**SHA-256:** `D544706C86912315E2B4D63A6CAAF605DB854D340CD87A21D3C79B208BA6CD5F`
+
+Version 1.0.1 adds a clearer animated onboarding flow, fixes premature broken QR placeholders, and improves registration, connection, and device-status feedback.
 
 ## Install On Android
 
