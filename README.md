@@ -7,45 +7,60 @@
 
   # AttendEase Standalones
 
-  **Official standalone Android releases for AttendEase**
+  **Official Android and Windows companion releases for AttendEase**
 
-  [![Latest Release](https://img.shields.io/badge/latest-v2.0.9-2785FE?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/latest)
+  [![Latest Release](https://img.shields.io/badge/latest-v2.2.0-2785FE?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/latest)
   [![Android](https://img.shields.io/badge/platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases)
+  [![Windows](https://img.shields.io/badge/companion-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/tag/connect-v1.0.0)
   [![Main Project](https://img.shields.io/badge/main-AttendEase-0C1323?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEase)
 
   <br />
 
-  [**Download AttendEase v2.0.9 APK**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v2.0.9/AttendEase-v2.0.9.apk)
+  [**Download AttendEase v2.2.0 APK**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v2.2.0/AttendEase-v2.2.0.apk)
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  [**Download AttendEase Connect v1.0.0**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v1.0.0/AttendEase-Connect-Setup-1.0.0.exe)
 </div>
 
 ---
 
 ## What Is This Repository?
 
-This repository is the public download home for AttendEase standalone Android builds.
+This repository is the public download home for the AttendEase Android application and AttendEase Connect Windows companion.
 
 The main AttendEase source code, web app, database migrations, and development history live in the [AttendEase repository](https://github.com/cyberbuzzytb/AttendEase). This repo keeps APK delivery separate, stable, and easy to share with selected Android testers.
 
 ## Latest Android Release
 
-### AttendEase v2.0.9
+### AttendEase v2.2.0
 
-- Added hybrid Google sign-in routing: website and PWA logins return to the website, while Android APK logins return directly to the app.
-- Added Android deep-link handling for Supabase OAuth callbacks.
-- Improved Android report printing and Save as PDF through the native Android print screen.
-- Improved report rendering so summary tables fit better on desktop, mobile, and printable PDF layouts.
-- Cleaned report date ranges and metadata formatting for clearer exported attendance reports.
-- Added extra Android auth callback safeguards to avoid duplicate callback handling.
+- Added a complete Assets workspace for company computer registration and lifecycle management.
+- Added live device health, readable last-seen information, onboarding checklists, and registration countdowns.
+- Added guided asset replacement, retirement history, and reviewable hardware-change alerts.
+- Added secure AttendEase Connect pairing and background device health support.
+- Added private phone and WhatsApp contact completion.
+- Improved responsive layouts, authorization, realtime refreshes, and version accuracy.
 
 | Download | Version | Package |
 | --- | --- | --- |
-| [AttendEase-v2.0.9.apk](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v2.0.9/AttendEase-v2.0.9.apk) | `2.0.9` | `com.cyberbuzzytb.attendease` |
+| [AttendEase-v2.2.0.apk](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v2.2.0/AttendEase-v2.2.0.apk) | `2.2.0` | `com.cyberbuzzytb.attendease` |
 
-**SHA256**
+**SHA-256:** `B990460D1400DD53E683F53325D3B3A0D92113C93A5BDB0B65BF2B297505FDE8`
 
-```text
-204DCEEA3358443726EBA5815303FF03B0545C8DDB683D7A3A2D7B3DA6CA0C83
-```
+## AttendEase Connect For Windows
+
+AttendEase Connect securely introduces a physical Windows computer to the AttendEase Assets workspace. It creates a protected device identity, displays a short-lived registration QR, reports online health, and refreshes hardware inventory without replacing the permanent Asset ID.
+
+- Starts quietly with Windows and continues from the notification area.
+- Sends a lightweight health heartbeat every 30 seconds.
+- Refreshes hardware and network inventory every 15 minutes.
+- Checks for checksum-verified updates at startup and every six hours.
+- Requires the user to confirm every Windows installer update.
+
+| Download | Version | Platform |
+| --- | --- | --- |
+| [AttendEase-Connect-Setup-1.0.0.exe](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v1.0.0/AttendEase-Connect-Setup-1.0.0.exe) | `1.0.0` | Windows x64 |
+
+**SHA-256:** `F4A76CF4F3F1540D6E81597672473669D5E864C30D4D45AA5939E8D44CE36D2E`
 
 ## Install On Android
 
@@ -76,6 +91,12 @@ https://attendease-3cm3.onrender.com/app-update.json
 
 The manifest points to the latest APK URL in this repository's releases, so the app always checks one stable update location.
 
+AttendEase Connect uses its own verified installer manifest:
+
+```text
+https://attendease-3cm3.onrender.com/connect-update.json
+```
+
 ## Who Should Install This?
 
 Use this APK for AttendEase Android testers, admins, and employees who need stronger background notifications than a browser-only PWA can provide.
@@ -88,7 +109,7 @@ https://attendease-3cm3.onrender.com
 
 ## Release Safety
 
-- Download APKs only from this repository's [GitHub Releases](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases).
+- Download APKs and Windows installers only from this repository's [GitHub Releases](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases).
 - Do not install files sent from unofficial mirrors or renamed third-party links.
 - Updating preserves the installed app's AttendEase package identity.
 - Android notification, location, and battery settings remain controlled by the device owner.
