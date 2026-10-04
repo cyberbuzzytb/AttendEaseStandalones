@@ -64,6 +64,14 @@ AttendEase Connect securely introduces a physical Windows computer to the Attend
 
 Version 1.0.1 adds a clearer animated onboarding flow, fixes premature broken QR placeholders, and improves registration, connection, and device-status feedback.
 
+### Connect 3.0.0 Manual Test
+
+[Download the unsigned Connect 3.0.0 installer](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.0/AttendEase-Connect-Setup-3.0.0.exe) for manual testing. Windows may show **Unknown publisher**. This prerelease is not offered through the in-app updater and does not change the stable 1.0.1 release.
+
+**SHA-256:** `B756A55142181EE8497534EB912614B264B4694DDEA3A34CC2D47EBA47DAE44B`
+
+Connect 3.0.0 keeps the older registration backend working with its original signed heartbeat and inventory cadence. The 15-minute lightweight heartbeat and admin-requested PC refresh require the separate backend rollout. The packaged app started in an isolated smoke test; installation over an existing Connect has not yet been tested.
+
 ## Install On Android
 
 1. Download the latest APK using the button above.
