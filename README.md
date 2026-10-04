@@ -34,16 +34,17 @@ The main AttendEase source code, web app, database migrations, and development h
 ### AttendEase v3.0.0
 
 - Added employee leave requests, administrator reviews, private evidence, decisions, and history.
+- Fixed Leave and Leave Management navigation and added complete Leave details to Telegram and branded Gmail notifications.
 - Added the live Work Calendar to employee views and made approved leave consistent across reports and reminders.
 - Improved offline behavior while keeping attendance and approval mutations online-only.
 - Added administrator-requested PC inventory refresh and 15-minute Connect health heartbeats.
 - Strengthened employee role, approval, company, access, and employment-status protection.
 
-| Download | Version | Package |
-| --- | --- | --- |
-| [AttendEase-v3.0.0.apk](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.0.0/AttendEase-v3.0.0.apk) | `3.0.0` | `com.cyberbuzzytb.attendease` |
+| Download | Version | Build | Package |
+| --- | --- | --- | --- |
+| [AttendEase-v3.0.0.apk](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.0.0/AttendEase-v3.0.0.apk) | `3.0.0` | `302` | `com.cyberbuzzytb.attendease` |
 
-**SHA-256:** `90BE3DE0CEBF833EBA12313A477C6A20A467322411ED28732CE70056DF87A8A5`
+**SHA-256:** `B2BA6250BCB69E35B281511F535A9460791528D0DC0301D41971D04EB8C3E287`
 
 ## AttendEase Connect For Windows
 
