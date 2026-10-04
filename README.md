@@ -9,14 +9,14 @@
 
   **Official Android and Windows companion releases for AttendEase**
 
-  [![Latest Release](https://img.shields.io/badge/latest-v2.2.0-2785FE?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/latest)
+  [![Latest Release](https://img.shields.io/badge/latest-v3.0.0-2785FE?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/latest)
   [![Android](https://img.shields.io/badge/platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases)
   [![Windows](https://img.shields.io/badge/companion-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/tag/connect-v1.0.1)
   [![Main Project](https://img.shields.io/badge/main-AttendEase-0C1323?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEase)
 
   <br />
 
-  [**Download AttendEase v2.2.0 APK**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v2.2.0/AttendEase-v2.2.0.apk)
+  [**Download AttendEase v3.0.0 APK**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.0.0/AttendEase-v3.0.0.apk)
   &nbsp;&nbsp;|&nbsp;&nbsp;
   [**Download AttendEase Connect v1.0.1**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v1.0.1/AttendEase-Connect-Setup-1.0.1.exe)
 </div>
@@ -31,28 +31,27 @@ The main AttendEase source code, web app, database migrations, and development h
 
 ## Latest Android Release
 
-### AttendEase v2.2.0
+### AttendEase v3.0.0
 
-- Added a complete Assets workspace for company computer registration and lifecycle management.
-- Added live device health, readable last-seen information, onboarding checklists, and registration countdowns.
-- Added guided asset replacement, retirement history, and reviewable hardware-change alerts.
-- Added secure AttendEase Connect pairing and background device health support.
-- Added private phone and WhatsApp contact completion.
-- Improved responsive layouts, authorization, realtime refreshes, and version accuracy.
+- Added employee leave requests, administrator reviews, private evidence, decisions, and history.
+- Added the live Work Calendar to employee views and made approved leave consistent across reports and reminders.
+- Improved offline behavior while keeping attendance and approval mutations online-only.
+- Added administrator-requested PC inventory refresh and 15-minute Connect health heartbeats.
+- Strengthened employee role, approval, company, access, and employment-status protection.
 
 | Download | Version | Package |
 | --- | --- | --- |
-| [AttendEase-v2.2.0.apk](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v2.2.0/AttendEase-v2.2.0.apk) | `2.2.0` | `com.cyberbuzzytb.attendease` |
+| [AttendEase-v3.0.0.apk](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.0.0/AttendEase-v3.0.0.apk) | `3.0.0` | `com.cyberbuzzytb.attendease` |
 
-**SHA-256:** `B990460D1400DD53E683F53325D3B3A0D92113C93A5BDB0B65BF2B297505FDE8`
+**SHA-256:** `90BE3DE0CEBF833EBA12313A477C6A20A467322411ED28732CE70056DF87A8A5`
 
 ## AttendEase Connect For Windows
 
 AttendEase Connect securely introduces a physical Windows computer to the AttendEase Assets workspace. It creates a protected device identity, displays a short-lived registration QR, reports online health, and refreshes hardware inventory without replacing the permanent Asset ID.
 
 - Starts quietly with Windows and continues from the notification area.
-- Sends a lightweight health heartbeat every 30 seconds.
-- Refreshes hardware and network inventory every 15 minutes.
+- Sends a lightweight health heartbeat every 15 minutes after registration.
+- Refreshes hardware and network inventory at startup or on administrator request.
 - Checks for checksum-verified updates at startup and every six hours.
 - Requires the user to confirm every Windows installer update.
 
@@ -64,13 +63,13 @@ AttendEase Connect securely introduces a physical Windows computer to the Attend
 
 Version 1.0.1 adds a clearer animated onboarding flow, fixes premature broken QR placeholders, and improves registration, connection, and device-status feedback.
 
-### Connect 3.0.0 Manual Test
+### Connect 3.0.0
 
-[Download the unsigned Connect 3.0.0 installer](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.0/AttendEase-Connect-Setup-3.0.0.exe) for manual testing. Windows may show **Unknown publisher**. This prerelease is not offered through the in-app updater and does not change the stable 1.0.1 release.
+[Download the unsigned Connect 3.0.0 installer](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.0/AttendEase-Connect-Setup-3.0.0.exe). Windows may show **Unknown publisher** because the installer is not code-signed.
 
 **SHA-256:** `B756A55142181EE8497534EB912614B264B4694DDEA3A34CC2D47EBA47DAE44B`
 
-Connect 3.0.0 keeps the older registration backend working with its original signed heartbeat and inventory cadence. The 15-minute lightweight heartbeat and admin-requested PC refresh require the separate backend rollout. The packaged app started in an isolated smoke test; installation over an existing Connect has not yet been tested.
+Connect 3.0.0 keeps legacy registration compatibility while adding 15-minute lightweight heartbeats, startup/on-demand inventory refresh, improved Windows startup verification, and safer retry behavior.
 
 ## Install On Android
 
