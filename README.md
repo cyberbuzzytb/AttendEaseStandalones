@@ -11,14 +11,14 @@
 
   [![Latest Release](https://img.shields.io/badge/latest-v3.0.0-2785FE?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/latest)
   [![Android](https://img.shields.io/badge/platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases)
-  [![Windows](https://img.shields.io/badge/companion-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/tag/connect-v1.0.1)
+  [![Windows](https://img.shields.io/badge/companion-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/tag/connect-v3.0.1)
   [![Main Project](https://img.shields.io/badge/main-AttendEase-0C1323?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEase)
 
   <br />
 
   [**Download AttendEase v3.0.0 APK**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.0.0/AttendEase-v3.0.0.apk)
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  [**Download AttendEase Connect v1.0.1**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v1.0.1/AttendEase-Connect-Setup-1.0.1.exe)
+  [**Download AttendEase Connect v3.0.1**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.1/AttendEase-Connect-Setup-3.0.1.exe)
 </div>
 
 ---
@@ -58,19 +58,19 @@ AttendEase Connect securely introduces a physical Windows computer to the Attend
 
 | Download | Version | Platform |
 | --- | --- | --- |
-| [AttendEase-Connect-Setup-1.0.1.exe](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v1.0.1/AttendEase-Connect-Setup-1.0.1.exe) | `1.0.1` | Windows x64 |
+| [AttendEase-Connect-Setup-3.0.1.exe](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.1/AttendEase-Connect-Setup-3.0.1.exe) | `3.0.1` | Windows x64 |
 
-**SHA-256:** `D544706C86912315E2B4D63A6CAAF605DB854D340CD87A21D3C79B208BA6CD5F`
+**SHA-256:** `46C1DAB1C5A0695B11F0830B9094D5D267CA4D8B5EF59E98450B56D175556111`
 
-Version 1.0.1 adds a clearer animated onboarding flow, fixes premature broken QR placeholders, and improves registration, connection, and device-status feedback.
+Version 3.0.1 adds an administrator diagnostics console shortcut and improves registration recovery and failure details while retaining the 15-minute lightweight heartbeat behavior.
 
-### Connect 3.0.0
+### Connect 3.0.1
 
-[Download the unsigned Connect 3.0.0 installer](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.0/AttendEase-Connect-Setup-3.0.0.exe). Windows may show **Unknown publisher** because the installer is not code-signed.
+[Download the unsigned Connect 3.0.1 installer](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.1/AttendEase-Connect-Setup-3.0.1.exe). Windows may show **Unknown publisher** because the installer is not code-signed.
 
-**SHA-256:** `B756A55142181EE8497534EB912614B264B4694DDEA3A34CC2D47EBA47DAE44B`
+**SHA-256:** `46C1DAB1C5A0695B11F0830B9094D5D267CA4D8B5EF59E98450B56D175556111`
 
-Connect 3.0.0 keeps legacy registration compatibility while adding 15-minute lightweight heartbeats, startup/on-demand inventory refresh, improved Windows startup verification, and safer retry behavior.
+Connect 3.0.1 keeps legacy registration compatibility while adding administrator diagnostics, more useful connection failures, 15-minute lightweight heartbeats, startup/on-demand inventory refresh, Windows startup verification, and bounded retry behavior.
 
 ## Install On Android
 
