@@ -9,16 +9,16 @@
 
   **Official Android and Windows companion releases for AttendEase**
 
-  [![Latest Release](https://img.shields.io/badge/latest-v3.0.0-2785FE?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/latest)
+  [![Latest Release](https://img.shields.io/badge/latest-v3.1.0-2785FE?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/latest)
   [![Android](https://img.shields.io/badge/platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases)
-  [![Windows](https://img.shields.io/badge/companion-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/tag/connect-v3.0.1)
+  [![Windows](https://img.shields.io/badge/companion-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/tag/connect-v3.0.2)
   [![Main Project](https://img.shields.io/badge/main-AttendEase-0C1323?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEase)
 
   <br />
 
-  [**Download AttendEase v3.0.0 APK**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.0.0/AttendEase-v3.0.0.apk)
+  [**Download AttendEase v3.1.0 APK**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.1.0/AttendEase-v3.1.0.apk)
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  [**Download AttendEase Connect v3.0.1**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.1/AttendEase-Connect-Setup-3.0.1.exe)
+  [**Download AttendEase Connect v3.0.2**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.2/AttendEase-Connect-Setup-3.0.2.exe)
 </div>
 
 ---
@@ -31,20 +31,19 @@ The main AttendEase source code, web app, database migrations, and development h
 
 ## Latest Android Release
 
-### AttendEase v3.0.0
+### AttendEase v3.1.0
 
-- Added employee leave requests, administrator reviews, private evidence, decisions, and history.
-- Fixed Leave and Leave Management navigation and added complete Leave details to Telegram and branded Gmail notifications.
-- Added the live Work Calendar to employee views and made approved leave consistent across reports and reminders.
-- Improved offline behavior while keeping attendance and approval mutations online-only.
-- Added administrator-requested PC inventory refresh and 15-minute Connect health heartbeats.
-- Strengthened employee role, approval, company, access, and employment-status protection.
+- Adds First-Half and Second-Half Leave with clear combined leave and attendance states.
+- Warns before GPS or QR attendance during a leave-covered period while preserving approved Leave.
+- Improves the Android home, attendance, Connect, Assets, Profile, Settings, forms, and responsive layouts.
+- Includes current Asset Management, Employee Connect Sessions, contact information, notifications, and reporting updates.
+- Preserves online-only attendance mutations and the existing security and retention boundaries.
 
 | Download | Version | Build | Package |
 | --- | --- | --- | --- |
-| [AttendEase-v3.0.0.apk](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.0.0/AttendEase-v3.0.0.apk) | `3.0.0` | `302` | `com.cyberbuzzytb.attendease` |
+| [AttendEase-v3.1.0.apk](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.1.0/AttendEase-v3.1.0.apk) | `3.1.0` | `310` | `com.cyberbuzzytb.attendease` |
 
-**SHA-256:** `B2BA6250BCB69E35B281511F535A9460791528D0DC0301D41971D04EB8C3E287`
+**SHA-256:** `F2C14BCE1ACA3128DBE6B5284B7FF1A87A776F482FCE10E6F611282DE4390747`
 
 ## AttendEase Connect For Windows
 
@@ -58,19 +57,19 @@ AttendEase Connect securely introduces a physical Windows computer to the Attend
 
 | Download | Version | Platform |
 | --- | --- | --- |
-| [AttendEase-Connect-Setup-3.0.1.exe](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.1/AttendEase-Connect-Setup-3.0.1.exe) | `3.0.1` | Windows x64 |
+| [AttendEase-Connect-Setup-3.0.2.exe](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.2/AttendEase-Connect-Setup-3.0.2.exe) | `3.0.2` | Windows x64 |
 
-**SHA-256:** `46C1DAB1C5A0695B11F0830B9094D5D267CA4D8B5EF59E98450B56D175556111`
+**SHA-256:** `E46261AB9AEC4765FC752B6CF69816793A79F40D9B42A2DA589994596ADAA32B`
 
-Version 3.0.1 adds an administrator diagnostics console shortcut and improves registration recovery and failure details while retaining the 15-minute lightweight heartbeat behavior.
+Version 3.0.2 adds bounded diagnostics, explainable health and compliance checks, typed remote actions, update awareness, maintenance mode, failure reporting, and service-history integration while retaining the 15-minute heartbeat behavior.
 
-### Connect 3.0.1
+### Connect 3.0.2
 
-[Download the unsigned Connect 3.0.1 installer](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.1/AttendEase-Connect-Setup-3.0.1.exe). Windows may show **Unknown publisher** because the installer is not code-signed.
+[Download the unsigned Connect 3.0.2 installer](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.2/AttendEase-Connect-Setup-3.0.2.exe). Windows may show **Unknown publisher** because the installer is not code-signed.
 
-**SHA-256:** `46C1DAB1C5A0695B11F0830B9094D5D267CA4D8B5EF59E98450B56D175556111`
+**SHA-256:** `E46261AB9AEC4765FC752B6CF69816793A79F40D9B42A2DA589994596ADAA32B`
 
-Connect 3.0.1 keeps legacy registration compatibility while adding administrator diagnostics, more useful connection failures, 15-minute lightweight heartbeats, startup/on-demand inventory refresh, Windows startup verification, and bounded retry behavior.
+Connect 3.0.2 keeps legacy registration compatibility while adding privacy-bounded diagnostics, typed command acknowledgements, maintenance and recovery controls, peripheral inventory, and authoritative combined leave/attendance display. It does not add arbitrary shell access, forced PC restart, surveillance, or an active offline-attendance producer.
 
 ## Install On Android
 
