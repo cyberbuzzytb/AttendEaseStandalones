@@ -9,16 +9,16 @@
 
   **Official Android and Windows companion releases for AttendEase**
 
-  [![Latest Release](https://img.shields.io/badge/latest-v3.1.4-2785FE?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/latest)
+  [![Latest Release](https://img.shields.io/badge/latest-v3.1.5-2785FE?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/latest)
   [![Android](https://img.shields.io/badge/platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases)
-  [![Windows](https://img.shields.io/badge/companion-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/tag/connect-v3.0.5)
+  [![Windows](https://img.shields.io/badge/companion-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/tag/connect-v3.0.6)
   [![Main Project](https://img.shields.io/badge/main-AttendEase-0C1323?style=for-the-badge)](https://github.com/cyberbuzzytb/AttendEase)
 
   <br />
 
-  [**Download AttendEase v3.1.4 APK**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.1.4/AttendEase-v3.1.4.apk)
+  [**Download AttendEase v3.1.5 APK**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.1.5/AttendEase-v3.1.5.apk)
   &nbsp;&nbsp;|&nbsp;&nbsp;
-  [**Download AttendEase Connect v3.0.5**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.5/AttendEase-Connect-Setup-3.0.5.exe)
+  [**Download AttendEase Connect v3.0.6**](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.6/AttendEase-Connect-Setup-3.0.6.exe)
 </div>
 
 ---
@@ -31,10 +31,10 @@ The main AttendEase source code, web app, database migrations, and development h
 
 ## Latest Android Release
 
-### AttendEase v3.1.4
+### AttendEase v3.1.5
 
-- Searches the complete authorized User Directory by phone, WhatsApp, IDs, account state, RFID, devices and associated assets.
-- Keeps administrator edits made during AI extraction and reusable-field autosave.
+- Expands Email Center with 27 templates, 60 variables, recipient-specific previews and whole-batch validation.
+- Corrects half-day presence, reusable-field deselection and registration; includes the compatible PDF sanitizer security patch.
 
 - Fixes final-step asset registration so preserved asset-type selections are submitted reliably.
 - Improves AI-assisted asset review with clearer evidence, confidence, and suggested-field presentation.
@@ -44,9 +44,9 @@ The main AttendEase source code, web app, database migrations, and development h
 
 | Download | Version | Build | Package |
 | --- | --- | --- | --- |
-| [AttendEase-v3.1.4.apk](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.1.4/AttendEase-v3.1.4.apk) | `3.1.4` | `314` | `com.cyberbuzzytb.attendease` |
+| [AttendEase-v3.1.5.apk](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/v3.1.5/AttendEase-v3.1.5.apk) | `3.1.5` | `315` | `com.cyberbuzzytb.attendease` |
 
-**SHA-256:** `4F8DC6BD45ED5317A7D3D7DA0CB45C46F0FCFD184A31E7C06CEFD97C3DB85663`
+**SHA-256:** `AB43712512B05701475C76378298F5EED5225BEBED0C31FDC49FDD1BCF14A35B`
 
 ## AttendEase Connect For Windows
 
@@ -60,21 +60,21 @@ AttendEase Connect securely introduces a physical Windows computer to the Attend
 
 | Download | Version | Platform |
 | --- | --- | --- |
-| [AttendEase-Connect-Setup-3.0.5.exe](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.5/AttendEase-Connect-Setup-3.0.5.exe) | `3.0.5` | Windows x64 |
+| [AttendEase-Connect-Setup-3.0.6.exe](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.6/AttendEase-Connect-Setup-3.0.6.exe) | `3.0.6` | Windows x64 |
 
-**SHA-256:** `05C443C1583C532378FDEC448E73E89C83F8EA10499C3B6A183748D8C5556340`
+**SHA-256:** `92FFA3EC695010004858DCB153D19EA220196FA9E343AF26BF0C150ECDE01B88`
 
-Version 3.0.5 preserves bounded diagnostics, explainable health and compliance checks, typed remote actions, update awareness, maintenance mode, failure reporting, and service-history integration while retaining the 15-minute heartbeat behavior.
+Version 3.0.6 preserves bounded diagnostics, explainable health and compliance checks, typed remote actions, update awareness, maintenance mode, failure reporting, and service-history integration while retaining the 15-minute heartbeat behavior.
 
-### Connect 3.0.5
+### Connect 3.0.6
 
-Registration and heartbeat responses are validated before changing local state. Offline retries retain the existing registration session and QR. The packaged Electron regression checks passed; physical Android testing and an installed NSIS upgrade test were unavailable for this release.
+Employee switches and revocations clear protected cached workspaces and persist pending-operation cleanup. Registration and heartbeat responses remain validated, and offline retries retain the existing registration session and QR. The packaged Electron regression checks passed; physical Android testing and an installed NSIS upgrade test were unavailable for this release.
 
-[Download the unsigned Connect 3.0.5 installer](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.5/AttendEase-Connect-Setup-3.0.5.exe). Windows may show **Unknown publisher** because the installer is not code-signed.
+[Download the unsigned Connect 3.0.6 installer](https://github.com/cyberbuzzytb/AttendEaseStandalones/releases/download/connect-v3.0.6/AttendEase-Connect-Setup-3.0.6.exe). Windows may show **Unknown publisher** because the installer is not code-signed.
 
-**SHA-256:** `05C443C1583C532378FDEC448E73E89C83F8EA10499C3B6A183748D8C5556340`
+**SHA-256:** `92FFA3EC695010004858DCB153D19EA220196FA9E343AF26BF0C150ECDE01B88`
 
-Connect 3.0.5 keeps legacy registration compatibility while preserving privacy-bounded diagnostics, typed command acknowledgements, maintenance and recovery controls, peripheral inventory, and authoritative combined leave/attendance display. It does not add arbitrary shell access, forced PC restart, surveillance, or an active offline-attendance producer.
+Connect 3.0.6 keeps legacy registration compatibility while preserving privacy-bounded diagnostics, typed command acknowledgements, maintenance and recovery controls, peripheral inventory, and authoritative combined leave/attendance display. It does not add arbitrary shell access, forced PC restart, surveillance, or an active offline-attendance producer.
 
 ## Install On Android
 
